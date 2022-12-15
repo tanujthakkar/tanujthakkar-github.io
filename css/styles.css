@@ -21,6 +21,12 @@ body {
 	margin: 0%;
 	text-align: justify;
 }
+/* 
+.about {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+} */
 
 /***************************** TOP ROW *****************************/
 /* Includes Name, University/Job Position, Navigation Bar*/
@@ -89,6 +95,9 @@ body {
 	float: middle;
 	margin: 0;
 	padding-top: 1%;
+	line-height: 110%;
+	clear: both;
+	width: 100%;
 }
 
 /* Referring specifically to header 3 (University/Job Position) in content */
@@ -97,6 +106,45 @@ body {
 	margin: 1em;
 }
 /*******************************************************************/
+
+
+/**************************** PROJECTS ******************************/
+.projects {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* #project {
+	float: middle;
+	margin: 0;
+	padding-top: 1%;
+	line-height: 110%;
+	clear: both;
+} */
+
+.project {
+	color: gray;
+	text-align: center;
+	justify-content: center;
+	/* border: 2px solid; */
+	/* border-color: #000000; */
+	position: relative;
+	width: 100%;
+}
+
+.project h4 {
+	color: #000000;
+	margin-bottom: 1px;
+}
+
+.project img {
+	width: 80%;
+	height: auto;
+}
+
+/*******************************************************************/
+
 
 /**************************** FOOTER *******************************/
 /* Footer */
@@ -149,7 +197,7 @@ nav a, footer a {
 }
 
 /* Removes right border for tabs linking to the given pages */
-a[href="http://cmu.edu"] {
+a[href="http://umd.edu"] {
 	border-right: none;
 }
 
