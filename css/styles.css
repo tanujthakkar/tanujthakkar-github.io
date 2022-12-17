@@ -112,35 +112,38 @@ body {
 .projects {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	/* justify-content: center; */
 }
-
-/* #project {
-	float: middle;
-	margin: 0;
-	padding-top: 1%;
-	line-height: 110%;
-	clear: both;
-} */
 
 .project {
 	color: gray;
 	text-align: center;
 	justify-content: center;
+	align-items: center;
 	/* border: 2px solid; */
 	/* border-color: #000000; */
-	position: relative;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 0.2rem;
 }
 
 .project h4 {
 	color: #000000;
 	margin-bottom: 1px;
+	margin-top: 0;
 }
 
 .project img {
-	width: 80%;
-	height: auto;
+	/* border: 2px solid; */
+	/* border-color: #ff0000; */
+	width: 90%;
+}
+
+#IMG {
+	display: flex;
+	justify-content: center;
+	height: 80%;
 }
 
 /*******************************************************************/
